@@ -17,8 +17,8 @@ host = '138.197.155.217'
 
 ## Create dataschedule object with database, password and host loc. Schedule input and init.
 obj = dataschedule.sched_input(database, password, host)
-#obj.sched_interval(interval='at', job = obj.iesoactual, sched_time='10:00')
-#obj.sched_interval(interval='at', job = obj.iesoactual, sched_time='22:00')
-#obj.sched_init()
-obj.myforecast()
+obj.sched_interval(interval='at', job = obj.iesoactual, sched_time='10:00')
+obj.sched_interval(interval='at', job = obj.iesoactual, sched_time='22:00')
+obj.sched_init()
+
     
