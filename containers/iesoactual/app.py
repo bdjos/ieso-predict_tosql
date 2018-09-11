@@ -7,7 +7,8 @@ Schedule hourly input of verified IESO demand values and input into postgres dat
 
 ## Add module path to sys.path
 import sys
-sys.path.append('../../modules')
+import os
+sys.path.append(os.path.join('..', '..', 'modules'))
 import dataschedule #module for adding to postgres database
 
 ## Database login info
