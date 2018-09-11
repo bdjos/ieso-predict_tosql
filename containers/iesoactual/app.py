@@ -14,7 +14,7 @@ password = '3iRM7Ihr@'
 host = '138.197.155.217'
 
 ## Create dataschedule object with database, password and host loc. Schedule input and init.
-obj = dataschedule(database, password, host)
+obj = dataschedule.dataschedule(database, password, host)
 obj.sched_interval(interval='hourly', job = obj.iesoactual)
 obj.sched_init()
 
