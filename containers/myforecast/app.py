@@ -14,7 +14,12 @@ host = '138.197.155.217'
 
 ## Create dataschedule object with database, password and host loc. Schedule input and init.
 obj = dataschedule.dataschedule(database, password, host)
+
+## Schedule SQL input at 10:00am & pm
 obj.sched_interval(interval='at', job = obj.iesoactual, sched_time='10:00')
 obj.sched_interval(interval='at', job = obj.iesoactual, sched_time='22:00')
+
+## Initiate Scheduling
+obj.sched_init()
 
     
