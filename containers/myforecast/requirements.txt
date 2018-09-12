@@ -1,7 +1,7 @@
-pandas==0.23.4 --no-cache-dir
-requests==2.9.1 --no-cache-dir
-schedule==0.5.0 --no-cache-dir
-SQLAlchemy==1.2.11 --no-cache-dir
-psycopg2==2.7.5 --no-cache-dir
-git+https://github.com/fastai/fastai.git --no-cache-dir
-git+https://github.com/bdjos/sqlmodules.git --no-cache-dir
+pandas==0.23.4
+requests==2.9.1
+schedule==0.5.0
+SQLAlchemy==1.2.11
+psycopg2==2.7.5
+git+https://github.com/fastai/fastai.git
+git+https://github.com/bdjos/sqlmodules.git
