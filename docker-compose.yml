@@ -16,7 +16,7 @@ services:
     ports:
       - "4001:80"
   myforecast:
-    image: iesoforecast
+    image: myforecast
     deploy:
       restart_policy:
         condition: on-failure
