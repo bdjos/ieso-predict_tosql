@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="http://reports.ieso.ca/docrefs/stylesheet/RealtimeConstTotals_HTML_t1-3.xsl" ?>
+<Document docID="RealtimeConstTotals" xmlns="http://www.ieso.ca/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.ieso.ca/schema http://reports.ieso.ca/docrefs/schema/RealtimeConstTotals_r1.xsd">
+<DocHeader>
+<DocTitle>Realtime Constrained Totals Report</DocTitle>
+<DocRevision>1</DocRevision>
+<DocConfidentiality>
+<DocConfClass>PUB</DocConfClass>
+</DocConfidentiality>
+<CreatedAt>2018-09-11T12:52:45</CreatedAt>
+</DocHeader>
+<DocBody>
+<DeliveryDate>2018-09-11</DeliveryDate>
+<DeliveryHour>13</DeliveryHour>
+<Energies>
+<IntervalEnergy>
+<Interval>1</Interval>
+<MQ>
+<MarketQuantity>Total Energy</MarketQuantity>
+<EnergyMW>17360.6</EnergyMW>
+</MQ>
+<MQ>
+<MarketQuantity>Total Loss</MarketQuantity>
+<EnergyMW>437.8</EnergyMW>
+</MQ>
+<MQ>
+<MarketQuantity>Total Load</MarketQuantity>
+<EnergyMW>16922.9</EnergyMW>
+</MQ>
+<MQ>
+<MarketQuantity>Total Dispatch Load</MarketQuantity>
+<EnergyMW>7</EnergyMW>
+</MQ>
+<MQ>
+<MarketQuantity>Total 10S</MarketQuantity>
+<EnergyMW>384</EnergyMW>
+</MQ>
+<MQ>
+<MarketQuantity>Total 10N</MarketQuantity>
+<EnergyMW>916</EnergyMW>
+</MQ>
+<MQ>
+<MarketQuantity>Total 30R</MarketQuantity>
+<EnergyMW>525</EnergyMW>
+</MQ>
+<MQ>
+<MarketQuantity>ONTARIO DEMAND</MarketQuantity>
+<EnergyMW>15523.9</EnergyMW>
+</MQ>
+<Flag>DSO-RD</Flag>
+</IntervalEnergy>
+<IntervalEnergy>
+<Interval>2</Interval>
+<MQ>
+<MarketQuantity>Total Energy</MarketQuantity>
+<EnergyMW>17479.8</EnergyMW>
+</MQ>
+<MQ>
+<MarketQuantity>Total Loss</MarketQuantity>
+<EnergyMW>440.8</EnergyMW>
+</MQ>
+<MQ>
+<MarketQuantity>Total Load</MarketQuantity>
+<EnergyMW>17039</EnergyMW>
+</MQ>
+<MQ>
+<MarketQuantity>Total Dispatch Load</MarketQuantity>
+<EnergyMW>7</EnergyMW>
+</MQ>
+<MQ>
+<MarketQuantity>Total 10S</MarketQuantity>
+<EnergyMW>384</EnergyMW>
+</MQ>
+<MQ>
+<MarketQuantity>Total 10N</MarketQuantity>
+<EnergyMW>916</EnergyMW>
+</MQ>
+<MQ>
+<MarketQuantity>Total 30R</MarketQuantity>
+<EnergyMW>525</EnergyMW>
+</MQ>
+<MQ>
+<MarketQuantity>ONTARIO DEMAND</MarketQuantity>
+<EnergyMW>15643.2</EnergyMW>
+</MQ>
+<Flag>DSO-RD</Flag>
+</IntervalEnergy>
+<IntervalEnergy>
+<Interval>3</Interval>
+<MQ>
+<MarketQuantity>Total Energy</MarketQuantity>
+<EnergyMW>17499.2</EnergyMW>
+</MQ>
+<MQ>
+<MarketQuantity>Total Loss</MarketQuantity>
+<EnergyMW>441</EnergyMW>
+</MQ>
+<MQ>
+<MarketQuantity>Total Load</MarketQuantity>
+<EnergyMW>17058.2</EnergyMW>
+</MQ>
+<MQ>
+<MarketQuantity>Total Dispatch Load</MarketQuantity>
+<EnergyMW>7</EnergyMW>
+</MQ>
+<MQ>
+<MarketQuantity>Total 10S</MarketQuantity>
+<EnergyMW>384</EnergyMW>
+</MQ>
+<MQ>
+<MarketQuantity>Total 10N</MarketQuantity>
+<EnergyMW>916</EnergyMW>
+</MQ>
+<MQ>
+<MarketQuantity>Total 30R</MarketQuantity>
+<EnergyMW>525</EnergyMW>
+</MQ>
+<MQ>
+<MarketQuantity>ONTARIO DEMAND</MarketQuantity>
+<EnergyMW>15662.2</EnergyMW>
+</MQ>
+<Flag>DSO-RD</Flag>
+</IntervalEnergy>
+<IntervalEnergy>
+<Interval>4</Interval>
+<MQ>
+<MarketQuantity>Total Energy</MarketQuantity>
+<EnergyMW>17435.2</EnergyMW>
+</MQ>
+<MQ>
+<MarketQuantity>Total Loss</MarketQuantity>
+<EnergyMW>426.1</EnergyMW>
+</MQ>
+<MQ>
+<MarketQuantity>Total Load</MarketQuantity>
+<EnergyMW>17009.1</EnergyMW>
+</MQ>
+<MQ>
+<MarketQuantity>Total Dispatch Load</MarketQuantity>
+<EnergyMW>7</EnergyMW>
+</MQ>
+<MQ>
+<MarketQuantity>Total 10S</MarketQuantity>
+<EnergyMW>384</EnergyMW>
+</MQ>
+<MQ>
+<MarketQuantity>Total 10N</MarketQuantity>
+<EnergyMW>916</EnergyMW>
+</MQ>
+<MQ>
+<MarketQuantity>Total 30R</MarketQuantity>
+<EnergyMW>525</EnergyMW>
+</MQ>
+<MQ>
+<MarketQuantity>ONTARIO DEMAND</MarketQuantity>
+<EnergyMW>15596.5</EnergyMW>
+</MQ>
+<Flag>DSO-RD</Flag>
+</IntervalEnergy>
+<IntervalEnergy>
+<Interval>5</Interval>
+<MQ>
+<MarketQuantity>Total Energy</MarketQuantity>
+<EnergyMW>17434.5</EnergyMW>
+</MQ>
+<MQ>
+<MarketQuantity>Total Loss</MarketQuantity>
+<EnergyMW>425.3</EnergyMW>
+</MQ>
+<MQ>
+<MarketQuantity>Total Load</MarketQuantity>
+<EnergyMW>17009.2</EnergyMW>
+</MQ>
+<MQ>
+<MarketQuantity>Total Dispatch Load</MarketQuantity>
+<EnergyMW>7</EnergyMW>
+</MQ>
+<MQ>
+<MarketQuantity>Total 10S</MarketQuantity>
+<EnergyMW>384</EnergyMW>
+</MQ>
+<MQ>
+<MarketQuantity>Total 10N</MarketQuantity>
+<EnergyMW>916</EnergyMW>
+</MQ>
+<MQ>
+<MarketQuantity>Total 30R</MarketQuantity>
+<EnergyMW>525</EnergyMW>
+</MQ>
+<MQ>
+<MarketQuantity>ONTARIO DEMAND</MarketQuantity>
+<EnergyMW>15598.4</EnergyMW>
+</MQ>
+<Flag>DSO-RD</Flag>
+</IntervalEnergy>
+<IntervalEnergy>
+<Interval>6</Interval>
+<MQ>
+<MarketQuantity>Total Energy</MarketQuantity>
+<EnergyMW>17481</EnergyMW>
+</MQ>
+<MQ>
+<MarketQuantity>Total Loss</MarketQuantity>
+<EnergyMW>421.6</EnergyMW>
+</MQ>
+<MQ>
+<MarketQuantity>Total Load</MarketQuantity>
+<EnergyMW>17059.5</EnergyMW>
+</MQ>
+<MQ>
+<MarketQuantity>Total Dispatch Load</MarketQuantity>
+<EnergyMW>7</EnergyMW>
+</MQ>
+<MQ>
+<MarketQuantity>Total 10S</MarketQuantity>
+<EnergyMW>384</EnergyMW>
+</MQ>
+<MQ>
+<MarketQuantity>Total 10N</MarketQuantity>
+<EnergyMW>916</EnergyMW>
+</MQ>
+<MQ>
+<MarketQuantity>Total 30R</MarketQuantity>
+<EnergyMW>525</EnergyMW>
+</MQ>
+<MQ>
+<MarketQuantity>ONTARIO DEMAND</MarketQuantity>
+<EnergyMW>15643.4</EnergyMW>
+</MQ>
+<Flag>DSO-RD</Flag>
+</IntervalEnergy>
+<IntervalEnergy>
+<Interval>7</Interval>
+<MQ>
+<MarketQuantity>Total Energy</MarketQuantity>
+<EnergyMW>17473.8</EnergyMW>
+</MQ>
+<MQ>
+<MarketQuantity>Total Loss</MarketQuantity>
+<EnergyMW>421.6</EnergyMW>
+</MQ>
+<MQ>
+<MarketQuantity>Total Load</MarketQuantity>
+<EnergyMW>17052.1</EnergyMW>
+</MQ>
+<MQ>
+<MarketQuantity>Total Dispatch Load</MarketQuantity>
+<EnergyMW>7</EnergyMW>
+</MQ>
+<MQ>
+<MarketQuantity>Total 10S</MarketQuantity>
+<EnergyMW>384</EnergyMW>
+</MQ>
+<MQ>
+<MarketQuantity>Total 10N</MarketQuantity>
+<EnergyMW>916</EnergyMW>
+</MQ>
+<MQ>
+<MarketQuantity>Total 30R</MarketQuantity>
+<EnergyMW>525</EnergyMW>
+</MQ>
+<MQ>
+<MarketQuantity>ONTARIO DEMAND</MarketQuantity>
+<EnergyMW>15636.6</EnergyMW>
+</MQ>
+<Flag>DSO-RD</Flag>
+</IntervalEnergy>
+<IntervalEnergy>
+<Interval>8</Interval>
+<MQ>
+<MarketQuantity>Total Energy</MarketQuantity>
+<EnergyMW>17478.5</EnergyMW>
+</MQ>
+<MQ>
+<MarketQuantity>Total Loss</MarketQuantity>
+<EnergyMW>421.6</EnergyMW>
+</MQ>
+<MQ>
+<MarketQuantity>Total Load</MarketQuantity>
+<EnergyMW>17056.8</EnergyMW>
+</MQ>
+<MQ>
+<MarketQuantity>Total Dispatch Load</MarketQuantity>
+<EnergyMW>7</EnergyMW>
+</MQ>
+<MQ>
+<MarketQuantity>Total 10S</MarketQuantity>
+<EnergyMW>384</EnergyMW>
+</MQ>
+<MQ>
+<MarketQuantity>Total 10N</MarketQuantity>
+<EnergyMW>916</EnergyMW>
+</MQ>
+<MQ>
+<MarketQuantity>Total 30R</MarketQuantity>
+<EnergyMW>525</EnergyMW>
+</MQ>
+<MQ>
+<MarketQuantity>ONTARIO DEMAND</MarketQuantity>
+<EnergyMW>15639.7</EnergyMW>
+</MQ>
+<Flag>DSO-RD</Flag>
+</IntervalEnergy>
+<IntervalEnergy>
+<Interval>9</Interval>
+<MQ>
+<MarketQuantity>Total Energy</MarketQuantity>
+<EnergyMW>17429.9</EnergyMW>
+</MQ>
+<MQ>
+<MarketQuantity>Total Loss</MarketQuantity>
+<EnergyMW>420.8</EnergyMW>
+</MQ>
+<MQ>
+<MarketQuantity>Total Load</MarketQuantity>
+<EnergyMW>17009.1</EnergyMW>
+</MQ>
+<MQ>
+<MarketQuantity>Total Dispatch Load</MarketQuantity>
+<EnergyMW>7</EnergyMW>
+</MQ>
+<MQ>
+<MarketQuantity>Total 10S</MarketQuantity>
+<EnergyMW>384</EnergyMW>
+</MQ>
+<MQ>
+<MarketQuantity>Total 10N</MarketQuantity>
+<EnergyMW>916</EnergyMW>
+</MQ>
+<MQ>
+<MarketQuantity>Total 30R</MarketQuantity>
+<EnergyMW>525</EnergyMW>
+</MQ>
+<MQ>
+<MarketQuantity>ONTARIO DEMAND</MarketQuantity>
+<EnergyMW>15594</EnergyMW>
+</MQ>
+<Flag>DSO-RD</Flag>
+</IntervalEnergy>
+<IntervalEnergy>
+<Interval>10</Interval>
+<MQ>
+<MarketQuantity>Total Energy</MarketQuantity>
+<EnergyMW>17432.6</EnergyMW>
+</MQ>
+<MQ>
+<MarketQuantity>Total Loss</MarketQuantity>
+<EnergyMW>420.4</EnergyMW>
+</MQ>
+<MQ>
+<MarketQuantity>Total Load</MarketQuantity>
+<EnergyMW>17012.2</EnergyMW>
+</MQ>
+<MQ>
+<MarketQuantity>Total Dispatch Load</MarketQuantity>
+<EnergyMW>7</EnergyMW>
+</MQ>
+<MQ>
+<MarketQuantity>Total 10S</MarketQuantity>
+<EnergyMW>384</EnergyMW>
+</MQ>
+<MQ>
+<MarketQuantity>Total 10N</MarketQuantity>
+<EnergyMW>916</EnergyMW>
+</MQ>
+<MQ>
+<MarketQuantity>Total 30R</MarketQuantity>
+<EnergyMW>525</EnergyMW>
+</MQ>
+<MQ>
+<MarketQuantity>ONTARIO DEMAND</MarketQuantity>
+<EnergyMW>15596</EnergyMW>
+</MQ>
+<Flag>DSO-RD</Flag>
+</IntervalEnergy>
+<IntervalEnergy>
+<Interval>11</Interval>
+<MQ>
+<MarketQuantity>Total Energy</MarketQuantity>
+<EnergyMW>17433.5</EnergyMW>
+</MQ>
+<MQ>
+<MarketQuantity>Total Loss</MarketQuantity>
+<EnergyMW>421.3</EnergyMW>
+</MQ>
+<MQ>
+<MarketQuantity>Total Load</MarketQuantity>
+<EnergyMW>17012.2</EnergyMW>
+</MQ>
+<MQ>
+<MarketQuantity>Total Dispatch Load</MarketQuantity>
+<EnergyMW>7</EnergyMW>
+</MQ>
+<MQ>
+<MarketQuantity>Total 10S</MarketQuantity>
+<EnergyMW>384</EnergyMW>
+</MQ>
+<MQ>
+<MarketQuantity>Total 10N</MarketQuantity>
+<EnergyMW>916</EnergyMW>
+</MQ>
+<MQ>
+<MarketQuantity>Total 30R</MarketQuantity>
+<EnergyMW>525</EnergyMW>
+</MQ>
+<MQ>
+<MarketQuantity>ONTARIO DEMAND</MarketQuantity>
+<EnergyMW>15595.7</EnergyMW>
+</MQ>
+<Flag>DSO-RD</Flag>
+</IntervalEnergy>
+<IntervalEnergy>
+<Interval>12</Interval>
+<MQ>
+<MarketQuantity>Total Energy</MarketQuantity>
+<EnergyMW>17416.9</EnergyMW>
+</MQ>
+<MQ>
+<MarketQuantity>Total Loss</MarketQuantity>
+<EnergyMW>426.7</EnergyMW>
+</MQ>
+<MQ>
+<MarketQuantity>Total Load</MarketQuantity>
+<EnergyMW>16990.3</EnergyMW>
+</MQ>
+<MQ>
+<MarketQuantity>Total Dispatch Load</MarketQuantity>
+<EnergyMW>7</EnergyMW>
+</MQ>
+<MQ>
+<MarketQuantity>Total 10S</MarketQuantity>
+<EnergyMW>387</EnergyMW>
+</MQ>
+<MQ>
+<MarketQuantity>Total 10N</MarketQuantity>
+<EnergyMW>913</EnergyMW>
+</MQ>
+<MQ>
+<MarketQuantity>Total 30R</MarketQuantity>
+<EnergyMW>525</EnergyMW>
+</MQ>
+<MQ>
+<MarketQuantity>ONTARIO DEMAND</MarketQuantity>
+<EnergyMW>15514.8</EnergyMW>
+</MQ>
+<Flag>DSO-RD</Flag>
+</IntervalEnergy>
+</Energies>
+</DocBody>
+</Document>
