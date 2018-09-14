@@ -2,17 +2,17 @@
 
 from fastai.structured import *
 from fastai.column_data import *
-from predictmodels import accuweathertest
+from modules import accuweathertest
 import os
 import numpy as np
 
 def predict():
 
-    PATH=os.path.join('..', 'models')
+    PATH='.'
     
     bin_temps = True
     
-    df = pd.read_csv(os.path.join(PATH, 'database.csv'))
+    df = pd.read_csv(os.path.join(PATH, 'models', 'database.csv'))
     df['Date/Time'] = pd.to_datetime(df['Date/Time'])
     df['Weekday'] = df['Date/Time'].apply(lambda x: x.weekday())
     

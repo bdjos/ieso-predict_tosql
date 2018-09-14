@@ -16,7 +16,8 @@ In/out of SQL database using pandas to_db and from_db
 """
 import sys
 sys.path.append('.')
-from sqlmodules import pandasdb
+from modules import pandasdb
+from modules import predict
 from sqlalchemy import Column, Integer, String, Float, DateTime
 import datetime
 import xml.etree.ElementTree as ET #module for parsing XML files
@@ -56,7 +57,7 @@ class dataschedule():
             date_str = datetime.datetime.strftime(date_dt, "%Y%m%d%H")
         
         url = f'http://reports.ieso.ca/public/RealtimeConstTotals/PUB_RealtimeConstTotals_{date_str}.xml'
-        xml_direct = os.path.join('..', 'data')
+        xml_direct = 'data'
         xml_file = 'iesoactual.xml'         
     
         root = self.xml_parse(url, xml_direct, xml_file) ##Parse xml file
@@ -82,7 +83,7 @@ class dataschedule():
         
         'Get 24hr forecast .xml file from ieso website. Parses and returns pandas df'
         url = 'http://reports.ieso.ca/public/OntarioZonalDemand/PUB_OntarioZonalDemand.xml'
-        xml_direct = os.path.join('..', 'data')
+        xml_direct = 'data'
         xml_file = 'iesoforecast.xml'
         
         root = self.xml_parse(url, xml_direct, xml_file)
@@ -119,7 +120,6 @@ class dataschedule():
         print(f'IESO Forecast Data successfully added to database at {datetime.datetime.strftime(datetime.datetime.now(), "%H:%M")}')
 
     def myforecast(self):
-        import predict
         
         table = 'MYFORECAST'
 
