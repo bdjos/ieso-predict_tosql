@@ -6,13 +6,13 @@ from modules import accuweathertest
 import os
 import numpy as np
 
-def predict():
+def predict(csv_datafile, saved_model):
 
     PATH='.'
     
     bin_temps = True
     
-    df = pd.read_csv(os.path.join(PATH, 'models', 'database.csv'))
+    df = pd.read_csv(os.path.join(PATH, 'models', csv_datafile))
     df['Date/Time'] = pd.to_datetime(df['Date/Time'])
     df['Weekday'] = df['Date/Time'].apply(lambda x: x.weekday())
     
@@ -132,7 +132,7 @@ def predict():
                        0.04, 1, [1000,500], [0.001,0.01], y_range=y_range)
     #lr = 1e-3
     
-    m.load(os.path.join(PATH, 'val0'))
+    m.load(os.path.join(PATH, saved_model))
     x, y=m.predict_with_targs()
     exp_rmspe(x,y)
     pred_test=m.predict(True)

@@ -19,6 +19,8 @@ obj.sched_interval(interval='hourly', job = obj.iesoactual)
 obj.sched_interval(interval='at', job = obj.iesoforecast, sched_time="10:00")
 obj.sched_interval(interval='at', job = obj.myforecast, sched_time="10:00")
 obj.sched_interval(interval='at', job = obj.myforecast, sched_time="22:00")
+obj.sched_interval(interval='at', job = obj.myforecast1, sched_time="10:00")
+obj.sched_interval(interval='at', job = obj.myforecast1, sched_time="22:00")
 
 ## Initialize scheduling
 obj.sched_init()

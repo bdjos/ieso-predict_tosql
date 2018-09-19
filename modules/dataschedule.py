@@ -122,8 +122,10 @@ class dataschedule():
     def myforecast(self):
         
         table = 'MYFORECAST'
-
-        df = predict.predict()
+        database = 'database.csv'
+        model = 'val0'
+        
+        df = predict.predict(database, model)
         df.columns = ['Rel Hum' if x == 'Rel Hum (%)' else x for x in df.columns]
         
         df_dtypes = [DateTime(), 
@@ -141,7 +143,31 @@ class dataschedule():
         db.pd_to_db(df_dtypes, df, if_exists='append')
         
         print(f'IESO Predict Data successfully added to database at {datetime.datetime.strftime(datetime.datetime.now(), "%H:%M")}')
-            
+
+    def myforecast1(self):
+        
+        table = 'MYFORECAST1'
+        database = 'database1.csv'
+        model = 'val1'
+        
+        df = predict.predict(database, model)
+        df.columns = ['Rel Hum' if x == 'Rel Hum (%)' else x for x in df.columns]
+        
+        df_dtypes = [DateTime(), 
+                     Float(),
+                     Float(), 
+                     Integer(), 
+                     Integer(), 
+                     Integer(), 
+                     Integer(), 
+                     Integer(),
+                     Integer(),
+                     Float()]
+
+        db = pandasdb.pandasdb(self.database, self.password, self.host, table)
+        db.pd_to_db(df_dtypes, df, if_exists='append')
+        
+        print(f'IESO Predict Data successfully added to database at {datetime.datetime.strftime(datetime.datetime.now(), "%H:%M")}')            
     def sched_interval(self, interval, job, sched_time='10:00'):
         '''
         interval == 'hourly' or 'at or 'minute''
