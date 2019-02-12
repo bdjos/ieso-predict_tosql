@@ -9,9 +9,9 @@ Schedule hourly input of verified IESO demand values and input into postgres dat
 from modules import dataschedule #module for adding to postgres database
 
 ## Database login info
-database = 'bjos'
-password = '3iRM7Ihr@'
-host = '138.197.155.217'
+database = ''
+password = ''
+host = ''
 
 ## Create dataschedule object with database, password and host loc
 obj = dataschedule.dataschedule(database, password, host)
