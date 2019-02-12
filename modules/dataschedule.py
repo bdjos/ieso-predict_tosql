@@ -26,6 +26,13 @@ import os
 import pandas as pd
 import schedule
 import time
+import logging
+
+logging.basicConfig(
+    filename="/var/log/schedule.log",
+    level=logging.DEBUG,
+    format="%(asctime)s:%(levelname)s:%(message)s"
+    )
 
 class dataschedule():
     def __init__(self, database, password, host):
@@ -46,7 +53,7 @@ class dataschedule():
 
     def iesoactual(self):
         ##get .xml file from ieso website
-        date_dt = datetime.datetime.now() + datetime.timedelta(hours=-1)
+        date_dt = datetime.datetime.now() + datetime.timedelta(hours=-2)
         
         ## Check if hour is 00 then convert to IESO format
         if date_dt.hour == 0: 
@@ -77,7 +84,7 @@ class dataschedule():
         db = pandasdb.pandasdb(self.database, self.password, self.host, table)
         db.pd_to_db(dtypes, df, if_exists='append')
         
-        print(f'IESO Actual Data successfully added to database at {datetime.datetime.strftime(datetime.datetime.now(), "%H:%M")}')
+        logging.debug(f'IESO Actual Data for {date_str} successfully added to database at {datetime.datetime.strftime(datetime.datetime.now(), "%H:%M")}')
 
     def iesoforecast(self):
         
@@ -117,7 +124,7 @@ class dataschedule():
         db = pandasdb.pandasdb(self.database, self.password, self.host, table)
         db.pd_to_db(dtypes, df, if_exists='append')
         
-        print(f'IESO Forecast Data successfully added to database at {datetime.datetime.strftime(datetime.datetime.now(), "%H:%M")}')
+        logging.debug(f'IESO Forecast Data successfully added to database at {datetime.datetime.strftime(datetime.datetime.now(), "%H:%M")}')
 
     def myforecast(self):
         
@@ -142,7 +149,7 @@ class dataschedule():
         db = pandasdb.pandasdb(self.database, self.password, self.host, table)
         db.pd_to_db(df_dtypes, df, if_exists='append')
         
-        print(f'IESO Predict Data successfully added to database at {datetime.datetime.strftime(datetime.datetime.now(), "%H:%M")}')
+        logging.debug(f'IESO Predict Data (forecast 0) successfully added to database at {datetime.datetime.strftime(datetime.datetime.now(), "%H:%M")}')
 
     def myforecast1(self):
         
@@ -167,7 +174,7 @@ class dataschedule():
         db = pandasdb.pandasdb(self.database, self.password, self.host, table)
         db.pd_to_db(df_dtypes, df, if_exists='append')
         
-        print(f'IESO Predict Data successfully added to database at {datetime.datetime.strftime(datetime.datetime.now(), "%H:%M")}')            
+        print(f'IESO Predict Data (forecast 1) successfully added to database at {datetime.datetime.strftime(datetime.datetime.now(), "%H:%M")}')            
     def sched_interval(self, interval, job, sched_time='10:00'):
         '''
         interval == 'hourly' or 'at or 'minute''
