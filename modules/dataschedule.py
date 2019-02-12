@@ -63,7 +63,7 @@ class dataschedule():
         else:
             date_str = datetime.datetime.strftime(date_dt, "%Y%m%d%H")
         
-        url = f'http://reports.ieso.ca/public/RealtimeConstTotals/PUB_RealtimeConstTotals_{date_str}.xml'
+        url = f"http://reports.ieso.ca/public/RealtimeConstTotals/PUB_RealtimeConstTotals_{date_str}.xml"
         xml_direct = 'data'
         xml_file = 'iesoactual.xml'         
     
